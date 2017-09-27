@@ -38,3 +38,17 @@ body {
   border-image: linear-gradient(grey,black,red);
   border-image-slice:1;
 }
+
+
+.transition {
+  height: 400px;
+  width: 1000px;
+  background: linear-gradient(to right, red, white, blue);
+  transition: height 2s, width 5s, transform 5s;
+}
+
+.transition:hover {
+  height: 100px;
+  width: 100px;
+  transform: rotate(180deg);
+}
