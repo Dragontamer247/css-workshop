@@ -8,3 +8,13 @@ body {
   height: 50px;
   border-radius: 100%;
 }
+
+.border-img {
+  height: 240px;
+  width: 240px;
+  position:relative;
+  background-image: url('images/image-2.jpg');
+  background-clip: padding-box;
+  padding: 50px;
+  left:25%;
+}
